@@ -19,18 +19,18 @@ class TestSortering {
         c = new Integer[]{5, 7, 8, 1, 2, 0};
     }
 
-//	@Test
-//	void testSorterVedInnsetting() {
-//		SorterTabell.sorterVedInnsetting(a);
-//		// assertTrue(erSortert(a));
-//
-//		SorterTabell.sorterVedInnsetting(b);
-//		// assertTrue(erSortert(b));
-//
-//		SorterTabell.sorterVedInnsetting(c);
-//		// assertTrue(erSortert(c));
-//		assertArrayEquals(fasitABC, c);
-//	}
+	@Test
+	void testSorterVedInnsetting() {
+		SorterTabell.sorterVedInnsetting(a);
+         assertTrue(erSortert(a));
+
+         SorterTabell.sorterVedInnsetting(b);
+		 assertTrue(erSortert(b));
+
+         SorterTabell.sorterVedInnsetting(c);
+		 assertTrue(erSortert(c));
+		assertArrayEquals(fasitABC, c);
+    }
 
 	@Test
 	void testUtvalgssortering() {
